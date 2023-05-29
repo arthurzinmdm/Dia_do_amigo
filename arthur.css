@@ -53,7 +53,7 @@ nav {
 }
 
 input[type="checkbox"]:checked~nav {
-  transform: translateX(150%);
+  transform: translateX(160%);
 }
 
 a {
