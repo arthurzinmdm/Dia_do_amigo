@@ -1,0 +1,566 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 3s ease-in-out;
+}
+
+.cabeçalho {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 99px;
+  position: relative
+}
+
+.bilson {
+  position: absolute;
+  top: 29%;
+  left: 42%;
+  font-size: 40px;
+}
+
+.topo_nomes {
+  position: relative;
+  background-color: black;
+  background-size: cover;
+  width: 100%;
+  height: 63px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.arthur {
+  position: absolute;
+  left: 25%;
+  bottom: -30%;
+  text-decoration: underline;
+  color: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 62px;
+
+  color: #FFFFFF;
+}
+
+.arthur :hover {
+  transition: 0..7s;
+  color: #76009F;
+}
+
+.carlos {
+  position: absolute;
+  left: 38%;
+  bottom: -30%;
+  text-decoration: underline;
+  color: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 62px;
+}
+
+.carlos :hover {
+  transition: 0.7s;
+  color: #0F4568;
+}
+
+.gabriel {
+  position: absolute;
+  left: 51%;
+  bottom: -30%;
+  text-decoration: underline;
+  color: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 62px;
+}
+
+.gabriel :hover {
+  transition: 0.7s;
+  color: #EC9D03;
+}
+
+.joão {
+  position: absolute;
+  left: 65%;
+  bottom: -30%;
+  text-decoration: underline;
+  color: #FFFFFF;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 62px;
+}
+
+.joão :hover {
+  transition: 0.7s;
+  color: #7A0000;
+}
+
+.começo {
+
+  position: relative;
+  background-image: url(fotos/Souviens\ Ten-Zan.gif);
+  background-size: cover;
+  width: 100;
+  height: 870px;
+  background-repeat: no-repeat;
+}
+
+.background_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+
+}
+
+.carlos1 {
+  text-decoration: underline;
+  color: #0C588A;
+}
+
+.texto1 {
+  position: absolute;
+  top: 25%;
+  left: 63%;
+  color: white;
+  z-index: 2;
+
+  font-weight: 500;
+  font-size: 90px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inteiroamigo {
+  position: relative;
+  background-size: cover;
+  background-color: white;
+  width: 100%;
+  height: 1025px;
+}
+
+.pretoamigo {
+  position: absolute;
+  background-size: cover;
+  background-color: black;
+  width: 62%;
+  height: 1025px;
+  color: #FFFFFF;
+}
+
+.amigo {
+  position: absolute;
+  color: #FFFFFF;
+  left: 4%;
+  top: 8%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.textoamigo {
+  position: absolute;
+  left: 4.1%;
+  top: 28%;
+  color: #FFFFFF;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.fotoamigo {
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  left: 70%;
+  top: 10%;
+  border-radius: 15px;
+}
+
+.databranco {
+  position: absolute;
+  color: black;
+  left: 74.5%;
+  top: 83%;
+
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.gostofazer {
+  position: relative;
+  background-size: cover;
+  background-color: #0C588A;
+  width: 100%;
+  height: 1025px;
+}
+
+.pretogosto {
+  position: absolute;
+  background-size: cover;
+  background-color: black;
+  color: #FFFFFF;
+  height: 1025px;
+  width: 62%;
+  left: 38%;
+}
+
+.gosto {
+  position: absolute;
+  color: #FFFFFF;
+  left: 4%;
+  top: 8%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.imagemgosto {
+  position: absolute;
+  width: 550px;
+  height: 700px;
+  border-radius: 15px;
+  left: 4.5%;
+  top: 13%;
+}
+
+.textoamigo1 {
+  position: absolute;
+  left: 4.1%;
+  top: 28%;
+  color: #FFFFFF;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.datagosto {
+  position: absolute;
+  color: black;
+  left: 5%;
+  top: 83%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 54px;
+}
+
+.filmes {
+  position: relative;
+  background-size: cover;
+  background-color: black;
+  width: 100%;
+  height: 1025px;
+}
+
+.series {
+  position: absolute;
+  width: 452px;
+  height: 100px;
+  left: 39%;
+  top: 4%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 70px;
+
+  color: #FFFFFF;
+}
+
+.fotofilmes1 {
+  position: absolute;
+  background-size: cover;
+  z-index: 1;
+  left: 7%;
+  top: 17%;
+  width: 270px;
+  height: 270px;
+  border-radius: 50px;
+}
+
+.fotofilmes2 {
+  position: absolute;
+  left: 29%;
+  top: 17%;
+  width: 270px;
+  height: 270px;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.fotofilmes3 {
+  position: absolute;
+  left: 52%;
+  top: 17%;
+  width: 270px;
+  height: 270px;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.fotofilmes4 {
+  position: absolute;
+  left: 75%;
+  top: 17%;
+  width: 270px;
+  height: 270px;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+.textofoto01 {
+  position: absolute;
+  background-size: cover;
+
+  width: 270px;
+  height: 550px;
+  left: 7%;
+  top: 39%;
+
+  background: #D9D9D9;
+}
+
+.textofoto1 {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+
+  color: #000000;
+}
+
+.textoserie02 {
+  position: absolute;
+  background-size: cover;
+  width: 270px;
+  height: 550px;
+  left: 29%;
+  top: 39%;
+  z-index: 0;
+
+  background: #D9D9D9;
+}
+
+.textoserie03 {
+  position: absolute;
+  background-size: cover;
+  width: 270px;
+  height: 550px;
+  left: 52%;
+  top: 39%;
+  z-index: 0;
+
+  background: #D9D9D9;
+}
+
+.textoserie04 {
+  position: absolute;
+  background-size: cover;
+  width: 270px;
+  height: 550px;
+  left: 75%;
+  top: 39%;
+  z-index: 0;
+
+  background: #D9D9D9;
+}
+
+.fundointeiro {
+  position: relative;
+  background-color: #0C588A;
+  background-size: cover;
+  width: 100%;
+  height: 1025px;
+}
+
+.pretovideo {
+  position: absolute;
+  background-size: cover;
+  background-color: black;
+  width: 62%;
+  height: 1025px;
+  color: #FFFFFF;
+}
+
+.textvideo {
+  position: absolute;
+
+  color: #FFFFFF;
+  left: 4%;
+  top: 8%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.tiktok {
+  position: absolute;
+  background-size: cover;
+  width: 25%;
+  height: 75%;
+  left: 50%;
+  top: 5%;
+}
+
+.videobilson {
+  position: absolute;
+  width: 30%;
+  height: 70%;
+  left: 66%;
+  top: 17%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+  text-shadow: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.bhomeft {
+  position: absolute;
+  background-image: url(fotos/button1.png);
+  top: 3%;
+  width: 47px;
+  left: 33px;
+  margin-top: 28px;
+  float: left;
+
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+nav {
+  background-color: rgba(16, 16, 16, 0.5);
+  width: 310px;
+  height: 100%;
+  position: absolute;
+  left: -350px;
+  transition: all 1s;
+}
+
+input[type="checkbox"]:checked~nav {
+  transform: translateX(310px);
+}
+
+a {
+  display: block;
+  padding: 20px 5px;
+  color: white;
+  font-size: 35px;
+}
+
+.HH {
+  color: rgb(255, 255, 255);
+}
+
+.HH:hover {
+  color: rgb(0, 1, 24);
+  background-color: rgb(231, 229, 228);
+  transition: 1s;
+  border-radius: 10px;
+}
+
+.JJ {
+  color: rgb(145, 46, 16);
+}
+
+.JJ:hover {
+  color: aliceblue;
+  background-color: rgb(145, 46, 16);
+  transition: 3s;
+}
+
+.AA {
+  color: rgb(66, 14, 116);
+}
+
+.AA:hover {
+  color: aliceblue;
+  background-color: rgb(24, 6, 54);
+  transition: 3s;
+}
+
+.CC {
+  color: rgb(10, 101, 180);
+}
+
+.CC:hover {
+  color: aliceblue;
+  background-color: rgb(19, 21, 163);
+  transition: 3s;
+}
+
+.GG {
+  color: rgb(203, 206, 22);
+}
+
+.GG:hover {
+  color: aliceblue;
+  background-color: rgb(203, 206, 19);
+  transition: 3s;
+}
+
+ul {
+  top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+label {
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+}

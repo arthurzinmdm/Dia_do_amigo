@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+  <form>
+    <div class="main">
+      <div class="esquerdo">
+        <h1>Faça o Login <br />Para nos conhecer melhor</h1>
+        <img src="high-school-animate.svg" class="imagemdelogin" alt="">
+      </div>
+      <div class="direito">
+        <div class="card">
+          <h1>LOGIN</h1>
+          <div class="field">
+            <label for="usuario">Usuário</label>
+            <input type="text" name="Usuario" placeholder="Digite o Nome do Usuário" id="usuario" />
+          </div>
+          <div class="field">
+            <label for="senha">Senha</label>
+            <input type="password" name="Senha" placeholder="Digite sua senha" id="senha" />
+          </div>
+          <input type="submit" class="loginbtn" onclick="logar(); return false">
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+      function logar() {
+
+        var login = document.getElementById('usuario').value;
+        var login = document.getElementById('senha').value;
+
+        if (usuario == "usuario" && senha == "senha") {
+          alert('Sucesso');
+          location.href = "indexhome.html";
+        }
+        else {
+          alert('Senha Validada com Sucesso');
+          location.href = "indexhome.html"
+        }
+      }
+
+    </script>
+</body>
+
+</html>

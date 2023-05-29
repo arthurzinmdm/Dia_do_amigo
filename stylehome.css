@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0s ease-in-out;
+    transition: all 3s ease-in-out;
+}
+
+nav {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 90px;
+}
+
+nav a {
+    color: #ffffffc4;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25pt;
+    position: relative;
+    transition: all 0.4s;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: lime;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.8s;
+}
+
+nav a:hover::after {
+    width: 70%;
+    border-radius: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(105deg, rgb(0, 0, 0) 70%, rgb(20, 20, 20));
+    height: 100%;
+}
+
+header {
+    background-color: aliceblue;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 4px 0px;
+}
+
+h1 {
+    color: rgb(122, 177, 160);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    padding: 5% 3%;
+    letter-spacing: 1px;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    margin-bottom: 200px;
+}
+
+h1>b {
+    font-size: 45px;
+}
+
+.divfotos>a>img {
+    height: 400px;
+    justify-content: center;
+    margin-top: 0%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.divfotos {
+    background-color: rgb(12, 12, 12);
+    height: 400px;
+}
+
+#arthurftft:hover {
+    filter: drop-shadow(3px 0px 4px red);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#bilsonftft:hover {
+    filter: drop-shadow(3px 0px 4px rgb(218, 197, 8));
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#joaoftft:hover {
+    filter: drop-shadow(3px 0px 4px rgb(106, 8, 218));
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#carlosftft:hover {
+    filter: drop-shadow(3px 0px 4px rgb(8, 34, 148));
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.sala {
+    width: 100%;
+    height: 400px;
+}
+
+.sala {
+    margin-left: 0;
+    margin-top: 5%;
+    display: flex;
+    background-image: linear-gradient(45deg, #404040 80%, #333333);
+}
+
+h2 {
+    margin-top: 3%;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 25%;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.txtsala>a>button {
+    justify-content: center;
+    background-color: #A9C4D4;
+    margin-left: 30%;
+    height: 50px;
+    width: 260px;
+    border-radius: 5px;
+    margin-top: 3%;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 10px rgb(86, 86, 92);
+    cursor: grab;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    margin-left: 10%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #1c1d1f;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #1aa839;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

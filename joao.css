@@ -1,0 +1,492 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+transition: all 3s ease-in-out;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  
+  
+  padding: -100px;
+  color: white;
+  font-size: 25px;
+ 
+  }
+
+  .gengar {
+    height: 90%;
+    width: 10%;
+    float: right;
+    padding-right: 40px;
+  }
+  a{
+    text-shadow: none;
+      color: black}
+      ul{
+        list-style: none;
+    }
+    .bhomeft{
+    float: left;
+        width: 45px;
+        padding-left: 10px;
+        margin-top: 28px;
+        margin-top: 10px;
+    }
+    input[type=checkbox]{
+        display: none;
+    }
+    nav{
+        background-color:rgba(16,16,16,.5);
+        width: 350px;
+        height: 100%;
+        position: absolute;
+        left:-350px;
+        transition: all 1s;
+    }
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(350px);
+    }
+    a{
+    display: block;
+    padding: 20px 5px;
+    color: white;
+    font-size: 35px;}
+    
+    .HH{
+        color: rgb(255, 255, 255);
+    }
+    .HH:hover{
+        color: rgb(0, 1, 24);
+        background-color:rgb(231, 229, 228);
+        transition: 1s;
+        border-radius: 10px;
+    }
+    
+    .JJ{
+        color: rgb(145, 46, 16);
+    }
+    .JJ:hover{
+        color: aliceblue;
+        background-color:rgb(145, 46, 16);
+        transition: 3s;
+    }
+    .AA{
+        color: rgb(66, 14, 116);
+    }
+    .AA:hover{
+        color: aliceblue;
+        background-color:rgb(24, 6, 54);
+        transition: 3s;
+    }
+    .CC{
+        color: rgb(10, 101, 180);
+    }
+    .CC:hover{
+        color: aliceblue;
+        background-color:rgb(19, 21, 163);
+        transition: 3s;
+    }
+    .GG{
+        color: rgb(203, 206, 22);
+    }
+    .GG:hover{
+        color: aliceblue;
+        background-color:rgb(203, 206, 19);
+        transition: 3s;
+    }
+    ul{
+        top: 70px;
+        position: absolute;
+        width: 100%;
+    }
+    label{
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
+
+.menu2 {
+  
+  display: inline-block;
+  display: flex;
+  font-size: 15px;
+  border-radius: 5%;
+}
+.joao{
+  color: white;
+  text-decoration: none;
+  padding-left: 400px;
+}
+.joao:hover {
+  color: purple;
+  transition:all 1s;
+  text-decoration: underline;
+}
+
+.arthur{
+  color: white;
+  text-decoration: none;
+  padding-left: 100px;
+}
+.arthur:hover {
+  color: red;
+  transition:all 1s;
+  text-decoration: underline;
+}
+
+.gabriel{
+  color: white;
+  text-decoration: none;
+  padding-left: 100px;
+}
+.gabriel:hover {
+  color: yellow;
+  transition:all 1s;
+  text-decoration: underline;
+}
+
+.carlos{
+  color: white;
+  text-decoration: none;
+  padding-left: 100px;
+}
+.carlos:hover {
+  color: blue;
+  transition:all 1s;
+  text-decoration: underline; 
+}
+
+.ola {
+  background-image: url(fotos/jase-bloor-oCZHIa1D4EU-unsplash\ \(2\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+}
+
+.texto_ola {
+  color: white;
+  padding-left: 900px;
+  padding-top: 180px;
+  font-size: 130px;
+}
+
+.biografia {
+  color: blueviolet;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 40px;
+}
+
+footer{
+  background-color: purple;
+  height: 200px;
+
+  margin-top: 300px;
+
+}
+
+.gastly {
+  margin-top: -143px;
+  height: 200px;
+  width: 200px;
+  float: right;
+  padding-right: 40px;
+}
+
+.insta {
+  margin-left: 35px;
+  height: 150px;
+  height: 150px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.instagram {
+  font-size: 45px;
+color: aquamarine;
+margin-top: -100px;
+margin-left: 230px;
+}
+
+.filmes {
+  display: inline-block;
+  display: flex;
+  margin-top: 100px;
+}
+
+.viagem {
+  height: 200px;
+  width: 400px;
+  padding-left: 50px;
+  border-radius: 5%;
+}
+
+.miranha {
+  height: 200px;
+  width: 500px;
+  padding-left: 150px;
+  border-radius: 10%;
+}
+
+.clube {
+  height: 200px;
+  width: 500px;
+  padding-left: 150px;
+  border-radius: 5%;
+}
+
+.navegar {
+  font-size: 25px;
+  color: white;
+}
+.filmest {
+  text-align: center;
+  font-size: 25px;
+  padding-left: 100px;
+  padding-top: 50px;
+  display: flex;
+}
+
+
+.viagemt {
+  color: white;
+  text-decoration: none;
+}
+
+.viagemt:hover {
+color: green;
+}
+
+.clubet {
+  color: white;
+  padding-left: 250px;
+  text-decoration: none;
+}
+
+.clubet:hover{
+  color: red;
+}
+
+.miranhat {
+  padding-left: 350px;
+  text-decoration: none;
+}
+
+.miranhat:hover {
+color: blue;
+}
+
+.fundogeral {
+  background-image: url(fotos/fundo\ mais\ foda.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+}
+
+.texto1 {
+  background-color: black;
+  height: 750px;
+  width: 800px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 10%;
+}
+
+.p1 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 50px;
+  height: 800px;
+  width: 800;
+}
+
+.foto1 {
+  height: 800px;
+  width: 650px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 10%;
+}
+
+.fundogeral2 {
+  background-image: url(fotos/fundo\ foda.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+}
+
+.texto2 {
+  background-color: black;
+  height: 750px;
+  width: 800px;
+  margin-left: 30px;
+  margin-top: 50px;
+  float: left;
+  border-radius: 10%;
+}
+
+.p2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+  height: 800px;
+  width: 800;
+}
+
+.limao {
+ height: 800px;
+ width: 600px;
+ float: right;
+ margin-right: 30px;
+ padding-top: 50px;
+ border-radius: 10%;
+}
+
+.mangas {
+  height: 800px;
+  display: flex;
+  display: inline-block;
+  padding-top: 50px;
+ 
+}
+
+.vagabond {
+  height: 200px;
+  width: 400px;
+  padding-left: 100px;
+  border-radius: 10%;
+}
+
+.berserk {
+  height: 200px;
+  width: 450px;
+  padding-left: 150px;
+  border-radius: 10%;
+}
+
+.vinland {
+  height: 200px;
+  width: 500px;
+  padding-left: 150px;
+  border-radius: 10%;
+}
+
+.mangast {
+  text-align: center;
+  font-size: 25px;
+  padding-left: 100px;
+  margin-top: -550px;
+  display: flex;
+}
+
+.vagabondt {
+text-decoration: none;
+padding-left: 60px;
+
+}
+
+.vagabondt:hover{
+  color: pink;
+}
+
+.berserkt {
+padding-left: 360px;
+text-decoration: none;
+
+}
+
+.berserkt:hover{
+  color: red;
+}
+
+.vinlandt {
+padding-left: 350px;
+text-decoration: none;
+}
+
+.vinlandt:hover{
+  color: grey;
+}
+
+.series {
+  height: 800px;
+  display: flex;
+  display: inline-block;
+  padding-top: 50px;
+ 
+}
+
+.punisher {
+  height: 200px;
+  width: 400px;
+  padding-left: 100px;
+  border-radius: 10%;
+}
+
+.midnight {
+  height: 200px;
+  width: 450px;
+  padding-left: 150px;
+  border-radius: 10%;
+}
+
+.bb {
+  height: 200px;
+  width: 500px;
+  padding-left: 150px;
+  border-radius: 10%;
+}
+
+.seriest {
+  text-align: center;
+  font-size: 25px;
+  padding-left: 100px;
+  margin-top: -550px;
+  display: flex;
+}
+
+.punishert {
+text-decoration: none;
+padding-left: 60px;
+color: white;
+
+}
+
+.punishert:hover{
+  color: red;
+}
+
+.midnightt {
+padding-left: 260px;
+text-decoration: none;
+border-radius: 5%;
+}
+
+.midnightt:hover{
+  color: purple;
+}
+
+.bbt {
+padding-left: 260px;
+text-decoration: none;
+border-radius: 5%;
+}
+
+.bbt:hover{
+  color: green;
+}
